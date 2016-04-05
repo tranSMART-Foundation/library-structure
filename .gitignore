@@ -1,0 +1,11 @@
+wars/*.war
+vm/*.ova
+sample_data/*.tar.xz
+newlibrary
+files
+dictionaries/*dictionary.tar.xz
+datasets/*.tar.xz
+datasets/*/*.tar.xz
+*~
+*/*~
+

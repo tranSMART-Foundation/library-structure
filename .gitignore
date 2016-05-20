@@ -7,6 +7,11 @@ dictionaries/*dictionary.tar.xz
 dictionaries/*.tar.xz
 datasets/*.tar.xz
 datasets/*/*.tar.xz
+release/**/*.tar.gz
+release/**/*.tar.gz.*
+release/**/*.war
+release/**/*.war.*
+release/**/*.asc
 *~
 */*~
 

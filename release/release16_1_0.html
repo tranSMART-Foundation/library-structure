@@ -19,24 +19,8 @@
         own; configuration files, data loading, and a raft of supporting
         software is needed. For details, see the instructions on the
         wiki at <a
-href="https://wiki.transmartfoundation.org/pages/viewpage.action?pageId=9535811">installing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          tranSMART</a> </p>
+href="https://wiki.transmartfoundation.org/pages/viewpage.action?pageId=9535811">
+          installing tranSMART</a> </p>
       <h3> How to verify content and signature of the release artifacts</h3>
       <p>Each artifact (for example <b>transmart.war</b>) is
         accompanied by a Detached Signature, with the extension *.asc
@@ -53,24 +37,15 @@ href="https://wiki.transmartfoundation.org/pages/viewpage.action?pageId=9535811"
       <p><b>Release Notes</b><br>
       </p>
       <p>These are the <a
-          href="release16_1_0_artifacts/tranSMART16.1ReleaseNotes.pdf">release
-
-
-
-
-
-
-
-
-
-          notes</a> for Release 16.1. <br>
+          href="release16_1_0_artifacts/tranSMART16.1ReleaseNotes.pdf">
+          release notes</a> for Release 16.1. <br>
       </p>
       <p> <b>Signed Artifacts for Release 16.1</b> </p>
       <ul>
         <li> <a href="release16_1_0_artifacts/transmart.war">transmart.war</a>
           (128MB)
           <ul>
-            <li><a href="release16_1_0_artifacts/transmart.war.asc">signature</a>
+            <li><a href="release16_1_0_artifacts/transmart.war.sig">signature</a>
             </li>
             <li><a href="release16_1_0_artifacts/transmart.war.md5">md5</a>
               and <a href="release16_1_0_artifacts/transmart.war.sha">sha1</a>
@@ -80,7 +55,7 @@ href="https://wiki.transmartfoundation.org/pages/viewpage.action?pageId=9535811"
         <li> <a href="release16_1_0_artifacts/gwava.war">gwava.war</a>
           (7.1MB)
           <ul>
-            <li><a href="release16_1_0_artifacts/gwava.war.asc">signature</a>
+            <li><a href="release16_1_0_artifacts/gwava.war.sig">signature</a>
             </li>
             <li><a href="release16_1_0_artifacts/gwava.war.md5">md5</a>
               and <a href="release16_1_0_artifacts/gwava.war.sha">sha1</a>
@@ -92,7 +67,7 @@ href="https://wiki.transmartfoundation.org/pages/viewpage.action?pageId=9535811"
           (13MB)
           <ul>
             <li><a
-                href="release16_1_0_artifacts/transmart-data-release-16.1.zip.asc">signature</a>
+                href="release16_1_0_artifacts/transmart-data-release-16.1.zip.sig">signature</a>
             </li>
             <li><a
                 href="release16_1_0_artifacts/transmart-data-release-16.1.zip.md5">md5</a>
@@ -106,7 +81,7 @@ href="https://wiki.transmartfoundation.org/pages/viewpage.action?pageId=9535811"
           (546MB)
           <ul>
             <li><a
-                href="release16_1_0_artifacts/tranSMART-ETL-release-16.1.zip.asc">signature</a>
+                href="release16_1_0_artifacts/tranSMART-ETL-release-16.1.zip.sig">signature</a>
             </li>
             <li><a
                 href="release16_1_0_artifacts/tranSMART-ETL-release-16.1.zip.md5">md5</a>
@@ -119,7 +94,7 @@ href="https://wiki.transmartfoundation.org/pages/viewpage.action?pageId=9535811"
           (34KB)
           <ul>
             <li><a
-                href="release16_1_0_artifacts/Scripts-release-16.1.zip.asc">signature</a>
+                href="release16_1_0_artifacts/Scripts-release-16.1.zip.sig">signature</a>
             </li>
             <li><a
                 href="release16_1_0_artifacts/Scripts-release-16.1.zip.md5">md5</a>
@@ -131,17 +106,16 @@ href="https://wiki.transmartfoundation.org/pages/viewpage.action?pageId=9535811"
       </ul>
       <p><b>Instructions to verify signature</b><br>
       </p>
-      <p>First you will need to download <a
-          href="release16_1_0_artifacts/Transmart-public-key-ACC50501.asc">this
-
-          public key</a>.<br>
-      </p>
-      <p>Then you will need a tool to incorporate the key into a
-        keystore and verify the signature against that keystore. These
-        instructions are based on using OpenPGP tools suite. To install
-        an OpenPGP software on your computer.&nbsp; Below you'll find a
-        list of possible solutions for your operating system:<br>
-        <br>
+      <p> While, in most cases, checking the md5 or sha (SHA1) hash-sum
+        check-codes should suffice to verify that the downloaded file is
+        intact, you may wish to verify that the signed 'detached
+        signature' (that is the 'signatre' above) is valid for the file
+        that you downloaded. This is a little involved, but is <a
+href="https://wiki.transmartfoundation.org/display/transmartwiki/Install+the+current+official+release#Installthecurrentofficialrelease-all-in-oneAll-in-oneinstructions">
+          described in full</a> as part of the official install process.
+        See the section "Set up environment for verifying downloads...".
+        Those notes will get you going. </p>
+      <p>The signatures were generated using the GNU Privacy Guard<br>
       </p>
       <table border="1" cellpadding="2" cellspacing="2" width="80%">
         <tbody>

@@ -7,6 +7,8 @@ dictionaries/*dictionary.tar.xz
 dictionaries/*.tar.xz
 datasets/*.tar.xz
 datasets/*/*.tar.xz
+datasets/*.tar
+datasets/*.zip
 release/**/*.zip
 release/**/*.zip.*
 release/**/*.war
